@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { View } from 'react-native'
+import { View, TouchableOpacity, Text, StyleSheet } from 'react-native'
 
 class HomePage extends Component {
     render() {
         return (
             <View>
-
+                <Text>Dashboard</Text>
             </View>
         )
     }

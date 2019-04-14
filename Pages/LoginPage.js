@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View } from 'react-native'
+import { View, TouchableOpacity, Text, StyleSheet } from 'react-native'
 
 class LoginPage extends Component {
     state = {
@@ -37,7 +37,7 @@ class LoginPage extends Component {
     }
 
 }
-const styles = StyleSheet.create({
+var styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
